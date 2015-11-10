@@ -32,13 +32,13 @@ public class MainActivityFragment extends Fragment {
                 "thu - wtf - 86/63",
                 "thu - wtf - 86/63"
         };
-        List<String> weekForecast = new ArrayList<String>(
+        List<String> weekForecast = new ArrayList<>(
                 Arrays.asList(forecastArray));
 
         ArrayAdapter<String> mForecastAdapter;
 
 
-        mForecastAdapter = new ArrayAdapter<String>(
+        mForecastAdapter = new ArrayAdapter<>(
                 getActivity(),
                 R.layout.list_item_forecast,
                 R.id.list_item_forecast_textview,
