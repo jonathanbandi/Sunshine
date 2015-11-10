@@ -27,10 +27,10 @@ public class MainActivityFragment extends Fragment {
                 "Today - Sunny - 88/63",
                 "tomorrow - windy - 89/62",
                 "wed - fuck you - 84/62",
+                "thu - whatever - 86/63",
                 "thu - wtf - 86/63",
-                "thu - wtf - 86/63",
-                "thu - wtf - 86/63",
-                "thu - wtf - 86/63"
+                "thu - dum maaro dum - 86/63",
+                "thu - mit jaaye ghum - 86/63"
         };
         List<String> weekForecast = new ArrayList<>(
                 Arrays.asList(forecastArray));
